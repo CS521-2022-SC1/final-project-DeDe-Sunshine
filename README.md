@@ -1,4 +1,4 @@
-# CS521-GroupProject
+# CS521-Final Project
 Chest Xray diagnostic classification
 
 This is a project that was done once in CS 542.
@@ -11,3 +11,7 @@ This project will attempt to combine both the rigors of scientific research and 
 If time permits, attempts will be made to utilize tehcniques taught in CS542 to trace explainability.
 
 For full transparency, previous data and assignment notes were uploaded in the folder as well.  Previous attempt was made with teammate Maria Smith-Jones, a computer engineering masters student at BU.  Many useful techniques were used and accuracy was great.  However, the amount of resource required was significant and run-time was long.  Google Colab will be utilized for GPU computational power in this attempt.  
+
+Links of found work:
+https://ai.googleblog.com/2021/09/detecting-abnormal-chest-x-rays-using.html 
+https://pubmed.ncbi.nlm.nih.gov/32575475/
