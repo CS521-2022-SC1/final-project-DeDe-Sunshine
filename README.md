@@ -1,7 +1,14 @@
 # CS521-Final Project
 Chest Xray diagnostic classification
 
-This is a project that was done once in CS 542.
+This is a continuation of the project that was done in CS 542.
+
+Update: Main difference:  separating lobes to L and R.  classify then bring together for identifying whether it is bacterial or viral.  
+
+*8-7-2022* It dawned on me that in order to differentiate the bacterial and viral pneumonia, it may be best to train the model only on covid vs normal but in individual lobes only.  As the hypotehsis is that for bacterial pneumonia there would be only 1 lobe with ground glass opacity or infection, and viral would have both; the best way would then be to train the model to know the difference between normal vs non-normal. 
+
+
+
 
 The data set consists of images of Chest Xrays of Covid/Normal and Covid/Normal/Bacterial Pneumonia/Viral Pneumonia images.  Labels were given.
 During previous attempt, it was discovered that it was easy to distinguish between normal and covid but much more difficult to distinguish between Bacterial vs Viral pneumonia.  Many techniques were utilized that are optimization techniques in machine learning such as data augmentation, increasing numbers of epochs, reducing step size of gradient descent when closer toward goal.  However, these techniques lack scientific basis in its approach.  A more scientifically backed approach was discussed with professor Bargal of using scientific papers as backing.  So far what was found was that bacterial pneumonia tends to be localized in one lobe versus viral tend to exist in both.
